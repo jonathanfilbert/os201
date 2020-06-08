@@ -1,0 +1,39 @@
+Script started on Mon Jun  8 14:21:46 2020
+]0;jonathan.filbert81@badak: ~/uasOS/os201/UASjonathan.filbert81@badak:~/uasOS/os201/UAS$ PSTAMP=''T'M'P'1'='"'$'('d'a't'e' '+'%'y'%'m'%'d'-'%'H'%'M'%'S')'"';' 'T'M'P'2'='"'$'('e'c'h'o' '$'T'M'P'1'-'$'G'i't'H'u'b'U's'e'r'-'$'{'P'W'D'#'#'*'/'}'|'s'h'a'1' [A]0;jonathan.filbert81@badak: ~/uasOS/os201/UASjonathan.filbert81@badak:~/uasOS/os201/UAS$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs''u'm'|'c'u't' '-'c'1'-'4')'"';' 'e'c'h'o' '"'$'T'M'P'1'-'$'T'M'P'2'-'$'{'P'W'D'#'#'*'/'}'/'>' '"';'
+]0;jonathan.filbert81@badak: ~/uasOS/os201/UASjonathan.filbert81@badak:~/uasOS/os201/UAS$ GitHubUser='jonathanfilbert'
+]0;jonathan.filbert81@badak: ~/uasOS/os201/UASjonathan.filbert81@badak:~/uasOS/os201/UAS$ PSTAMP=''T'M'P'1'='"'$'('d'a't'e' '+'%'y'%'m'%'d'-'%'H'%'M'%'S')'"';' 'T'M'P'2'='"'$'('e'c'h'o' '$'T'M'P'1'-'$'G'i't'H'u'b'U's'e'r'-'$'{'P'W'D'#'#'*'/'}'|'s'h'a'1' [A]0;jonathan.filbert81@badak: ~/uasOS/os201/UASjonathan.filbert81@badak:~/uasOS/os201/UAS$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs''u'm'|'c'u't' '-'c'1'-'4')'"';' 'e'c'h'o' '"'$'T'M'P'1'-'$'T'M'P'2'-'$'{'P'W'D'#'#'*'/'}'/'>' '"';'
+]0;jonathan.filbert81@badak: ~/uasOS/os201/UASjonathan.filbert81@badak:~/uasOS/os201/UAS$ PSTAMP=''T'M'P'1'='"'$'('d'a't'e' '+'%'y'%'m'%'d'-'%'H'%'M'%'S')'"';' 'T'M'P'2'='"'$'('e'c'h'o' '$'T'M'P'1'-'$'G'i't'H'u'b'U's'e'r'-'$'{'P'W'D'#'#'*'/'}'|'s'h'a'1' [A]0;jonathan.filbert81@badak: ~/uasOS/os201/UASjonathan.filbert81@badak:~/uasOS/os201/UAS$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs''u'm'|'c'u't' '-'c'1'-'4')'"';' 'e'c'h'o' '"'$'T'M'P'1'-'$'T'M'P'2'-'$'{'P'W'D'#'#'*'/'}'/'>' '"';'
+]0;jonathan.filbert81@badak: ~/uasOS/os201/UASjonathan.filbert81@badak:~/uasOS/os201/UAS$ 
+]0;jonathan.filbert81@badak: ~/uasOS/os201/UASjonathan.filbert81@badak:~/uasOS/os201/UAS$ PS1="$ "
+$ echo $GitHubUser
+jonathanfilbert
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ PS1="\$(eval \$PSTAMP)"
+200608-142242-d8a1-UAS/> ls -F
+0000-mypub.txt  0001-mytest.txt  0002-mytest.txt.asc  0003-CEK-PAS0.txt  ;  ;   SHA1SUM  SHA1SUM.asc
+200608-142247-0ba5-UAS/> sha1sum 0000-mypub.txt 0001-mytest.txt 0002-mytest.txt.asc > SHA1SUM
+200608-142255-b2ac-UAS/> sha1sum -c SHA1SUM 
+0000-mypub.txt: OK
+0001-mytest.txt: OK
+0002-mytest.txt.asc: OK
+200608-142301-3e43-UAS/> gpg2 -sb -a SHA1SUM 
+
+You need a passphrase to unlock the secret key for
+user: "Jonathan Filbert Lisyanto (OS201 C jonathanfilbert Jonathan Filbert Lisyanto) <jonathan.zero20@gmail.com>"
+4096-bit RSA key, ID 1127977F, created 2020-02-19
+
+[?1049h[1;35r(B[m[4l[?7h[?1h=[39;49m[39;49m[H[2J(B[mpinentry-curses: no LC_CTYPE known - assuming UTF-8
+pinentry-curses: no LC_CTYPE known - assuming UTF-8
+pinentry-curses: no LC_CTYPE known - assuming UTF-8
+pinentry-curses: no LC_CTYPE known - assuming UTF-8
+[13;10H(0[0mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk(B(B[m[14;10H(0[0mx(B[0m Please enter the passphrase to unlock the secret key for the OpenPGP certificate:[14;121H(0[0mx(B(B[m[15;10H(0[0mx(B[0m "Jonathan Filbert Lisyanto (OS201 C jonathanfilbert Jonathan Filbert Lisyanto) <jonathan.zero20@gmail.com>"  (0[0mx(B(B[m[16;10H(0[0mx(B[0m 4096-bit RSA key, ID 1127977F,[16;121H(0[0mx(B(B[m[17;10H(0[0mx(B[0m created 2020-02-19.[17;121H(0[0mx(B(B[m[18;10H(0[0mx(B(B[m[18;121H(0[0mx(B(B[m[19;10H(0[0mx(B(B[m[19;121H(0[0mx(B(B[m[20;10H(0[0mx(B[0m Passphrase _________________________________________________________________________________________________ (0[0mx(B(B[m[21;10H(0[0mx(B(B[m[21;121H(0[0mx(B(B[m[22;10H(0[0mx(B(B[m[22;28H(0[0m(B[0m<OK>[22;98H<Cancel>[22;121H(0[0mx(B(B[m[23;10H(0[0mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj(B(B[m[20;23H(0[0m(B(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m[35;1H[?1049l[?1l>pinentry-curses: no LC_CTYPE known - assuming UTF-8
+File `SHA1SUM.asc' exists. Overwrite? (y/N) y
+200608-142310-4b39-UAS/> gpg2 --verify SHA1SUM.asc 
+gpg: assuming signed data in 'SHA1SUM'
+gpg: Signature made Mon Jun  8 14:23:10 2020 WIB using RSA key ID 1127977F
+gpg: Good signature from "Jonathan Filbert Lisyanto (OS201 C jonathanfilbert Jonathan Filbert Lisyanto) <jonathan.zero20@gmail.com>" [ultimate]
+200608-142315-57eb-UAS/> exit
+exit
+
+Script done on Mon Jun  8 14:23:19 2020
