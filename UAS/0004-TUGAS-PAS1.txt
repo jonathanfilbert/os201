@@ -12,6 +12,7 @@ jonathanfilbert ZCZCSCRIPTSTART 200530-154811 jonathanfilbert
  jonathanfilbert jonathanfilbert 200530-154855-65a6-UAS/ 200530-154855 SEQOK SUMOK 65a6ba1b
  jonathanfilbert jonathanfilbert 200530-154900-295a-UAS/ 200530-154900 SEQOK SUMOK 295a68ee
  jonathanfilbert ZCZCSCRIPTSTOP 200530-154906 SEQOK
+
 200608-172517-292c-uasOS/> echo -e $CEKSEBELA1
 jonathanfilbert ZCZCSCRIPTSTART 200607-110111 JustOneMoreLine
  jonathanfilbert JustOneMoreLine 200607-110135-ee4e-UAS/ 200607-110135 SEQOK SUMOK ee4ef507
@@ -19,6 +20,7 @@ jonathanfilbert ZCZCSCRIPTSTART 200607-110111 JustOneMoreLine
  jonathanfilbert JustOneMoreLine 200607-110145-04d3-UAS/ 200607-110145 SEQOK SUMOK 04d30262
  jonathanfilbert JustOneMoreLine 200607-110150-c7c9-UAS/ 200607-110150 SEQOK SUMOK c7c95f01
  jonathanfilbert ZCZCSCRIPTSTOP 200607-110210 SEQOK
+
 200608-172527-30ec-uasOS/> echo -e $CEKSEBELA2
 jonathanfilbert ZCZCSCRIPTSTART 200603-224719 jonathanfilbert kamilakaffah07
  jonathanfilbert kamilakaffah07 200603-224809-7bd0-kamila.kaffah/ 200603-224809 SEQOK SUMOK 7bd05b2f
@@ -26,7 +28,6 @@ jonathanfilbert ZCZCSCRIPTSTART 200603-224719 jonathanfilbert kamilakaffah07
  jonathanfilbert kamilakaffah07 200603-224946-d697-kamila.kaffah/ 200603-224946 SEQOK SUMOK d6970388
  jonathanfilbert kamilakaffah07 200603-225101-e33f-kamila.kaffah/ 200603-225101 SEQOK SUMOK e33f29dd
  jonathanfilbert ZCZCSCRIPTSTOP 200603-225143 SEQOK
+
 200608-172533-cec8-uasOS/> exit
 exit
-
-Script done on Mon Jun  8 17:25:45 2020
